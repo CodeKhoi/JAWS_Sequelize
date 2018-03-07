@@ -1,0 +1,160 @@
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+nav {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.logo {
+	font-family: 'Tangerine', cursive;
+	font-size: 50px;
+}
+
+.logoLeft {
+	margin-left: 7px;
+	padding: 4px;
+	padding-right: 10px;
+	border: 1px solid #fff;
+}
+
+#boxSelection {
+	margin-top: 10px;
+	color: #111;
+}
+
+#box-storage {
+	padding-top: 12px;
+	padding-bottom: 10px;
+}
+
+#addButton {
+	padding: 13px;
+	border: 1px solid #fff;
+	cursor: pointer;
+	margin-left: 40px;
+}
+
+#header {
+	font-size: 29px;
+	text-align: center;
+	font-family: 'Fredericka the Great', cursive;
+	margin: 0;
+	margin-top: 25px;
+}
+
+#cardImg {
+	margin-top: 10px;
+	border: 2px solid #fd8;
+}
+
+#cardBtn {
+	padding-top: 4px;
+}
+
+#addCard {
+	padding: 25px;
+}
+
+.itemCard {
+	color: red;
+	font-size: 40px;
+}
+
+#navImg {
+	background: url(../img/header.jpg);
+	height: 200px;
+	background-position: center;
+	border-top: 5px solid #5D5C61;
+}
+
+.btn-floating {
+	margin-left: 10px;
+}
+
+.input-field {
+	background-color: #fff;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+
+#vboxSubmit {
+	background-color: #fd8;
+}
+
+#textBox1 {
+	margin-bottom: 0;
+}
+
+#textBox2 {
+	margin-bottom: 0;
+}
+
+#vboxBtn {
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+#updateModal {
+	width: 400px;
+	height: 500px;
+	padding: 20px;
+}
+
+.modal-content {
+	padding: 0;
+}
+
+#destroy {
+	background-color: #424242;
+}
+
+#destroyBtn {
+	background-color: #424242;
+}
+
+#destroyModal {
+	width: 400px;
+	height: 200px;
+	padding: 20px;
+}
+
+#addRefreshModal {
+	width: 400px;
+	height: 250px;
+}
+
+#editRefreshModal {
+	width: 400px;
+	height: 250px;
+}
+
+#searchSection {
+	margin-bottom: 10px;
+}
+
+.footer{
+	border-top: 5px solid #5bb;
+	height: 300px;
+	background: url(../img/back2.png);
+}
+
+#map {
+	height: 250px;
+	width: 250px;
+}
+
+#updatedSelection {
+	margin-bottom: 15px;
+}
+
+#updatedItems {
+	margin: 0px;
+}
